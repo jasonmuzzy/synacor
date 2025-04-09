@@ -1,0 +1,25 @@
+{
+  "name": "synacor",
+  "version": "1.0.0",
+  "description": "Synacor Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonmuzzy/synacor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonmuzzy/synacor/issues"
+  },
+  "homepage": "https://github.com/jasonmuzzy/synacor#readme",
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
+  }
+}
