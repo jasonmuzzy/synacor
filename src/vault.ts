@@ -1,13 +1,14 @@
-export function getPath() {
+export function solveVault() {
 
     /*
+
+    Vault layout:
 
     *   8   -   1
     4   *   11  *
     +   4   -   18
     22  -   9   *
 
-    north east east north west south east east west north north east
     */
 
     // Find path through maze that gives result equal to 30
@@ -31,7 +32,7 @@ export function getPath() {
 
         // Path found
         if (id === 3 && v === 30) {
-            return path;
+            return path.replaceAll(' ', '\n');
         }
 
         // Visiteds
@@ -50,8 +51,10 @@ export function getPath() {
 
     }
 
+    return '';
+
 }
 
 if (require.main === module) {
-    console.log(`The path to the vault is:\n${getPath()?.replaceAll(' ', '\n')}`);
+    console.log(`The path to the vault is:\n${solveVault()}`);
 }

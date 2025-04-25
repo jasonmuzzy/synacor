@@ -47,8 +47,7 @@ export function getEnergyLevel() {
 }
 
 if (require.main === module) {
-    const start = Date.now();
-    console.log(`Energy level found: ${getEnergyLevel()} (${Date.now() - start}ms)`);
+    console.log(`The correct energy level is: ${getEnergyLevel()}`);
 }
 
 // This was my personal best for finding the energy level, which took approximately 10 minutes to run
