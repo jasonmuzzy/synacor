@@ -4,14 +4,15 @@
   "description": "Synacor Challenge",
   "main": "index.js",
   "scripts": {
+    "start": "npm i && node --nolazy -r ts-node/register src/vm.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jasonmuzzy/synacor.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["synacor", "synacor challenge"],
+  "author": "Jason Muzzy",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jasonmuzzy/synacor/issues"
@@ -19,7 +20,7 @@
   "homepage": "https://github.com/jasonmuzzy/synacor#readme",
   "devDependencies": {
     "@types/node": "^22.14.0",
-    "tsx": "^4.19.3",
+    "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   }
 }
